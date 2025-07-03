@@ -7,8 +7,8 @@ def index():
     result = None
     if request.method == "POST":
         try:
-            num1 = int(float(request.form["num1"]))
-            num2 = int(float(request.form["num2"]))
+            num1 = int(float(request.form["num1"]))    #First variable
+            num2 = int(float(request.form["num2"]))    #Second variable
 
             operation = request.form["operation"]
 
